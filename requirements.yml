@@ -1,0 +1,12 @@
+name: A3
+dependencies:
+- python=3.7
+- numpy=1.18.1
+- pandas=1.0
+- tensorflow=2.1
+- scikit-learn=0.22
+- pytables=3.6.1
+- matplotlib=3.1
+- pip
+- pip:
+   - emnist
