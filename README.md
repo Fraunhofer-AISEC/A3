@@ -14,8 +14,10 @@ Our semi-supervised anomaly detection method allows to inspect large amounts of 
 
 ### Dependencies
 The software dependencies are listed in ``requirements.yml`` for ``conda`` and in ``requirements.txt`` for ``pip``.
+We use Python 3.7.
+
 We recommend using a conda environment:  
-``conda env create --name A3 --file ./requirements.yml``.
+``conda env create python=3.7 --name A3 --file ./requirements.yml``.
 
 Alternatively, using ``virtualenv``:  
 ``virtualenv -p python3 A3``,
@@ -95,6 +97,11 @@ A3
 └─── results                    (measurements used for the paper)
 │
 ```
+
+### Additional remarks
+Please note that we fixed minor bugs for the final version of our paper.
+For a sound evaluation, we repeated all experiments on the new codebase.
+The provided code and models reflect the results in final version, not the preprint on arXiv.
 
 ### Links
 * [1] https://www.unb.ca/cic/datasets/nsl.html
