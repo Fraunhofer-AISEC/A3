@@ -12,6 +12,13 @@ Thanks to the anomaly network, our method even works in strict semi-supervised s
 Strong anomaly detection results are achieved on common data sets surpassing current baseline methods.
 Our semi-supervised anomaly detection method allows to inspect large amounts of data for anomalies across various applications.
 
+### Citation
+Activation Anomaly Analysis was published at ECML-PKDD 2020 [8].
+If you find our work useful, please cite our paper:
+```
+Sperl P., Schulze JP., Böttinger K. (2021) Activation Anomaly Analysis. In: Hutter F., Kersting K., Lijffijt J., Valera I. (eds) Machine Learning and Knowledge Discovery in Databases. ECML PKDD 2020. Lecture Notes in Computer Science, vol 12458. Springer, Cham. https://doi.org/10.1007/978-3-030-67661-2_5
+```
+
 ### Dependencies
 The software dependencies are listed in ``requirements.yml`` for ``conda`` and in ``requirements.txt`` for ``pip``.
 We use Python 3.7.
@@ -111,3 +118,4 @@ The provided code and models reflect the results in final version, not the prepr
 * [5] https://keras.io/examples/mnist_cnn/
 * [6] https://github.com/tnakae/DAGMM
 * [7] https://sites.google.com/site/gspangsite/sourcecode
+* [8] https://link.springer.com/chapter/10.1007%2F978-3-030-67661-2_5
